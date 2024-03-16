@@ -16,6 +16,8 @@ Los procesos utilizan variables que pueden leer/escribir
 - Paso de mensajes (Message passing)
 Los procesos utilizan funciones para enviar/recibir datos.
 
+
+
 ¿De qué dispondremos para hacer esto?
 
 • Señales (Signals): son eventos enviados por otros procesos (del mismo usuario) o por el kernel para indicar determinadas condiciones.
