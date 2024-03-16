@@ -1,5 +1,7 @@
 /*
-Ejemplo donde se hace uso de la llamada dup2() y donde se envia la ejecucion de EXEC a un fichero de texto
+Ejemplo donde se hace uso de la llamada dup2() y donde se envia la ejecucion de EXEC a un fichero de texto.
+
+La salida estándar y la salida de error en el proceso hijo son sustituidas por el descriptor de fichero "test.txt"
 */
 
 #include <fcntl.h>
